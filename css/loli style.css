@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+body {
+    background-color: #4a0e6b;
+    padding: 20px;
+    font-family: 'Caacupe One', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    color: #fff;
+}
+.reg-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.reg-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.reg-card {
+    background-color: #cabbd5;
+    border: 2px solid #351840;
+    border-radius: 20px;
+    padding: 25px;
+    width: 450px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.reg-title {
+    color: #ffffff;
+    background-color: #6b5fc4;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 12px;
+    border-radius: 12px;
+}
+.reg-form {
+    display: flex;
+    flex-direction: column;
+}
+.reg-form label {
+    display: block;
+    font-size: 16px;
+    color: #2b0f3a;
+    margin: 8px 0 4px 0;
+}
+.reg-form input,
+.reg-form select,
+.reg-form textarea {
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #b673d1;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+    background-color: #fff;
+    color: #2b0f3a;
+}
+.reg-form textarea {
+    height: 80px;
+    resize: vertical;
+}
+.reg {
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #6b5fc4;
+    color: #fff;
+    display: block;
+    margin: 15px auto 0;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: inherit;
+}
+.reg:hover {
+    background-color: #8578e0;
+}
+.btn-back {
+    background-color: #b0496a;
+    border: 1px solid #ca2652;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 30px auto 0;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    text-decoration: none;
+    color: #fff;
+}
+.btn-back:hover {
+    background-color: #c85a78;
+}
