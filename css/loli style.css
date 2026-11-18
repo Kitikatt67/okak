@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+
 body {
     background-color: #4a0e6b;
     padding: 20px;
@@ -19,6 +20,7 @@ body {
     flex-wrap: wrap;
     gap: 30px;
 }
+
 .reg-card {
     background-color: #cabbd5;
     border: 2px solid #351840;
@@ -29,18 +31,18 @@ body {
     box-sizing: border-box;
 }
 .reg-title {
-    color: #ffffff;
-    background-color: #6b5fc4;
-    font-size: 22px;
+    color: #2b0f3a; /* Темный цвет текста для контраста на светлом фоне */
+    font-size: 24px;
     text-align: center;
     margin: 0 0 20px 0;
-    padding: 12px;
-    border-radius: 12px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6b5fc4; /* Аккуратная полоска снизу вместо фона */
 }
 .reg-form {
     display: flex;
     flex-direction: column;
 }
+
 .reg-form label {
     display: block;
     font-size: 16px;
@@ -64,6 +66,7 @@ body {
     height: 80px;
     resize: vertical;
 }
+
 .reg {
     font-size: 16px;
     border: none;
@@ -78,9 +81,11 @@ body {
     transition: background 0.2s;
     font-family: inherit;
 }
+
 .reg:hover {
     background-color: #8578e0;
 }
+
 .btn-back {
     background-color: #b0496a;
     border: 1px solid #ca2652;
@@ -96,4 +101,14 @@ body {
 }
 .btn-back:hover {
     background-color: #c85a78;
+}
+
+@media (max-width: 700px) {
+    .reg-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .reg-card {
+        width: 100%;
+    }
 }
